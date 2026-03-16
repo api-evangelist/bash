@@ -1,106 +1,31 @@
-name: Bash Shell APIs
-description: API documentation for GNU Bash (Bourne Again SHell) command-line interpreter and scripting language
-image: https://www.gnu.org/software/bash/bash.png
-url: https://www.gnu.org/software/bash/
-created: '2024'
-modified: '2024'
+aid: bash
+name: Bash Shell
+description: >-
+  GNU Bash (Bourne Again SHell) is a Unix shell and command-line interpreter
+  providing a scripting language, built-in commands, and programming interface
+  for automating tasks and building shell scripts on Unix/Linux systems.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- shell
-- bash
-- scripting
-- command-line
-- unix
-- linux
-- automation
-apis:
-- name: Bash Built-in Commands API
-  description: Core built-in commands provided by the Bash shell
-  image: https://www.gnu.org/software/bash/bash.png
-  humanURL: https://www.gnu.org/software/bash/manual/bash.html
-  baseURL: /bin/bash
-  properties:
-  - type: Documentation
-    url: https://www.gnu.org/software/bash/manual/bash.html
-  - type: Reference
-    url: https://www.gnu.org/software/bash/manual/html_node/index.html
-  - type: Tutorial
-    url: https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
-  contact:
-  - type: Email
-    url: mailto:bug-bash@gnu.org
-  - type: Mailing List
-    url: https://lists.gnu.org/mailman/listinfo/bug-bash
-- name: Bash Scripting API
-  description: Programming interface for creating Bash shell scripts
-  humanURL: https://www.gnu.org/software/bash/manual/bash.html#Shell-Scripts
-  baseURL: /bin/bash
-  properties:
-  - type: Documentation
-    url: https://www.gnu.org/software/bash/manual/bash.html
-  - type: Examples
-    url: https://github.com/awesome-lists/awesome-bash
-  - type: Best Practices
-    url: https://google.github.io/styleguide/shellguide.html
-- name: Bash Variables and Parameters
-  description: Environment variables, special parameters, and parameter expansion
-  humanURL: https://www.gnu.org/software/bash/manual/html_node/Shell-Parameters.html
-  properties:
-  - type: Documentation
-    url: https://www.gnu.org/software/bash/manual/html_node/Shell-Parameters.html
-  - type: Reference
-    url: https://www.gnu.org/software/bash/manual/html_node/Shell-Variables.html
-- name: Bash Control Structures
-  description: Conditional statements, loops, and flow control mechanisms
-  humanURL: https://www.gnu.org/software/bash/manual/html_node/Conditional-Constructs.html
-  properties:
-  - type: Documentation
-    url: https://www.gnu.org/software/bash/manual/html_node/Conditional-Constructs.html
-  - type: Reference
-    url: https://www.gnu.org/software/bash/manual/html_node/Looping-Constructs.html
-- name: Bash Functions API
-  description: Define and use shell functions in Bash scripts
-  humanURL: https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html
-  properties:
-  - type: Documentation
-    url: https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html
-  - type: Examples
-    url: https://www.gnu.org/software/bash/manual/html_node/Shell-Function-Definitions.html
-- name: Bash I/O Redirection API
-  description: Input/output redirection and file descriptor manipulation
-  humanURL: https://www.gnu.org/software/bash/manual/html_node/Redirections.html
-  properties:
-  - type: Documentation
-    url: https://www.gnu.org/software/bash/manual/html_node/Redirections.html
-  - type: Reference
-    url: https://www.gnu.org/software/bash/manual/html_node/Pipelines.html
-- name: Bash Process Management
-  description: Job control, process substitution, and command execution
-  humanURL: https://www.gnu.org/software/bash/manual/html_node/Job-Control.html
-  properties:
-  - type: Documentation
-    url: https://www.gnu.org/software/bash/manual/html_node/Job-Control.html
-  - type: Reference
-    url: https://www.gnu.org/software/bash/manual/html_node/Command-Execution-Environment.html
-maintainers:
-- name: Free Software Foundation
-  email: bug-bash@gnu.org
-  url: https://www.gnu.org/software/bash/
-include:
-- name: ShellCheck
-  description: Static analysis tool for shell scripts
-  url: https://www.shellcheck.net/
-- name: Bash Completion
-  description: Programmable completion functions for bash
-  url: https://github.com/scop/bash-completion
-- name: Oh My Bash
-  description: Framework for managing Bash configuration
-  url: https://ohmybash.nntoan.com/
+  - Shell
+  - Bash
+  - Scripting
+  - Command-Line
+  - Unix
+  - Linux
+  - Automation
+url: https://raw.githubusercontent.com/api-evangelist/bash/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
 common:
-- type: License
-  url: https://www.gnu.org/licenses/gpl-3.0.html
-- type: Source Code
-  url: https://git.savannah.gnu.org/cgit/bash.git
-- type: Download
-  url: https://ftp.gnu.org/gnu/bash/
-- type: Changelog
-  url: https://tiswww.case.edu/php/chet/bash/CHANGES
+  - type: Website
+    url: https://www.gnu.org/software/bash/
+  - type: Documentation
+    url: https://www.gnu.org/software/bash/manual/bash.html
+  - type: GitHub Organization
+    url: https://git.savannah.gnu.org/cgit/bash.git
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
