@@ -7,13 +7,13 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Shell
-  - Bash
-  - Scripting
-  - Command-Line
-  - Unix
-  - Linux
   - Automation
+  - Bash
+  - Command-Line
+  - Linux
+  - Scripting
+  - Shell
+  - Unix
 url: https://raw.githubusercontent.com/api-evangelist/bash/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
