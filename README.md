@@ -1,54 +1,45 @@
-# Bash Shell (bash)
-GNU Bash (Bourne Again SHell) is the default Unix shell and command-line interpreter on most Linux distributions and macOS. Bash provides a rich scripting language with variables, control structures, functions, I/O redirection, job control, and process management. It is the foundational automation tool for system administration, CI/CD pipelines, DevOps tooling, and software build systems.
+# Bash Shell
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/bash/refs/heads/main/apis.yml)
+GNU Bash (Bourne Again SHell) is the default Unix shell and command-line interpreter on most Linux distributions and macOS. Developed by Brian Fox for the GNU Project in 1988 as a free replacement for the Bourne shell, Bash provides a rich scripting language with variables, control structures, functions, I/O redirection, job control, and process management. Bash scripts are the foundational automation tool for system administration, CI/CD pipelines, DevOps tooling, and software build systems.
 
-## Tags:
+## Project Info
 
- - Automation, Bash, Command-Line, DevOps, Linux, Scripting, Shell, Unix
+| Attribute | Detail |
+|---|---|
+| Current Version | Bash 5.2 (October 2022) |
+| Original Author | Brian Fox (1988) |
+| Current Maintainer | Chet Ramey (Case Western Reserve University) |
+| License | GPL-3.0 |
+| Language | C |
+| Source | https://git.savannah.gnu.org/cgit/bash.git |
 
-## Timestamps
+## Resources
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-19
-
-## Key Features
-
-| Name | Description |
-|------|-------------|
-| Built-in Commands | Core built-in commands (cd, echo, read, test, export, alias) executed without forking. |
-| Shell Scripting | Full scripting language with variables, arrays, conditionals, loops, and functions. |
-| Parameter Expansion | String manipulation, pattern matching, and variable substitution via parameter expansion. |
-| I/O Redirection | Redirect stdin, stdout, stderr to files, devices, and between processes with pipes. |
-| Job Control | Background and foreground process management with fg, bg, jobs, and signals. |
-| Arithmetic Expansion | Integer arithmetic via $(()) and let built-in for numeric computation in scripts. |
-| Process Substitution | Treat command output as a file using process substitution for pipeline flexibility. |
-| Readline Integration | Command-line editing with history, completion, and key bindings via GNU Readline. |
-| Array Support | Indexed and associative arrays for complex data structures in shell scripts. |
-| Brace Expansion | Generate arbitrary strings and file lists via brace expansion patterns. |
-
-## Use Cases
-
-| Name | Description |
-|------|-------------|
-| System Administration | Automate system tasks, user management, log rotation, and maintenance scripts. |
-| CI/CD Pipelines | Build, test, and deploy scripts in GitHub Actions, GitLab CI, Jenkins, and CircleCI. |
-| DevOps Automation | Infrastructure provisioning, configuration management, and deployment orchestration. |
-| Data Processing | Text processing pipelines using grep, awk, sed, and shell pipelines. |
-| API Scripting | HTTP API calls with curl and response parsing for automation and testing. |
-| File Management | Bulk file operations, directory traversal, and file transformation scripts. |
-| Environment Management | Manage environment variables, PATH, and shell configuration via .bashrc and .profile. |
-
-## Common Resources
-
-- [GNU Bash](https://www.gnu.org/software/bash/)
+- [GNU Bash Homepage](https://www.gnu.org/software/bash/)
 - [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
 - [Source Code Repository](https://git.savannah.gnu.org/cgit/bash.git)
+- [Download Releases](https://ftp.gnu.org/gnu/bash/)
+- [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0.html)
 - [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
+- [Bug Tracker](https://savannah.gnu.org/bugs/?group=bash)
+
+## Package Registry
+
+Bash is available via all major OS package managers:
+
+```
+apt install bash         # Debian/Ubuntu
+yum install bash         # RHEL/CentOS
+brew install bash        # macOS (Homebrew - newer than system bash)
+```
+
+Source tarballs: https://ftp.gnu.org/gnu/bash/
+
+## Vocabulary
+
+See [vocabulary/bash-vocabulary.yaml](vocabulary/bash-vocabulary.yaml) for key terms and definitions.
 
 ## Maintainers
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- Kin Lane (kin@apievangelist.com)

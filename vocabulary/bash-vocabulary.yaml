@@ -1,0 +1,69 @@
+vocabulary:
+  name: Bash Shell Vocabulary
+  description: >-
+    Key terms and concepts used in GNU Bash shell scripting, automation, and
+    command-line programming.
+  terms:
+    - term: Shell
+      definition: >-
+        A command-line interpreter that provides a user interface for the Unix operating
+        system. Bash is both an interactive shell and a scripting language.
+    - term: Shebang
+      definition: >-
+        The character sequence `#!/bin/bash` at the top of a script that tells the
+        kernel which interpreter to use when executing the file.
+    - term: Variable
+      definition: >-
+        A named storage location in Bash, assigned with `VAR=value` (no spaces) and
+        referenced with `$VAR` or `${VAR}`.
+    - term: Parameter Expansion
+      definition: >-
+        Substitution of variable values with optional transformations, e.g., `${VAR:-default}`,
+        `${VAR#prefix}`, `${VAR/find/replace}`.
+    - term: Command Substitution
+      definition: >-
+        Capturing the output of a command as a value using `$(command)` or backtick syntax.
+    - term: Pipeline
+      definition: >-
+        A sequence of commands connected by `|` where stdout of one command is fed as
+        stdin to the next command in the chain.
+    - term: Redirection
+      definition: >-
+        Control of stdin (`<`), stdout (`>`), and stderr (`2>`) to/from files or other
+        file descriptors, including append (`>>`).
+    - term: Exit Code
+      definition: >-
+        An integer status returned by every command (0 = success, non-zero = error),
+        accessible via `$?` and used for conditional logic.
+    - term: Function
+      definition: >-
+        A reusable block of code defined with `function_name() { ... }` that can accept
+        positional parameters `$1`, `$2`, etc.
+    - term: Array
+      definition: >-
+        An indexed list of values declared with `declare -a arr` or `arr=(a b c)` and
+        accessed via `${arr[0]}`, `${arr[@]}`.
+    - term: Associative Array
+      definition: >-
+        A key-value map declared with `declare -A map` and accessed via `${map[key]}`.
+        Available in Bash 4.0+.
+    - term: Subshell
+      definition: >-
+        A child process spawned by enclosing commands in `()`. Variables set in a subshell
+        do not affect the parent shell environment.
+    - term: Process Substitution
+      definition: >-
+        Treats command output as a file using `<(command)` syntax, allowing commands that
+        expect file arguments to receive pipeline data.
+    - term: Here Document
+      definition: >-
+        A multi-line string literal passed as stdin using `<<EOF ... EOF` syntax, useful
+        for embedding multi-line strings in scripts.
+    - term: Globbing
+      definition: >-
+        Filename expansion using wildcards: `*` matches any string, `?` matches one char,
+        `[abc]` matches character classes.
+    - term: POSIX
+      definition: >-
+        Portable Operating System Interface — Bash is largely POSIX-compliant but includes
+        many extensions beyond the POSIX shell standard.
