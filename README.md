@@ -1,100 +1,54 @@
-# Bash Shell APIs (bash)
-API documentation for GNU Bash (Bourne Again SHell) command-line interpreter and scripting language
+# Bash Shell (bash)
+GNU Bash (Bourne Again SHell) is the default Unix shell and command-line interpreter on most Linux distributions and macOS. Bash provides a rich scripting language with variables, control structures, functions, I/O redirection, job control, and process management. It is the foundational automation tool for system administration, CI/CD pipelines, DevOps tooling, and software build systems.
 
-**URL:** [Visit APIs.json URL](https://www.gnu.org/software/bash/)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/bash/refs/heads/main/apis.yml)
 
 ## Tags:
 
- - shell, bash, scripting, command-line, unix, linux, automation
+ - Automation, Bash, Command-Line, DevOps, Linux, Scripting, Shell, Unix
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-19
 
-## APIs
+## Key Features
 
-### Bash Built-in Commands API
-Core built-in commands provided by the Bash shell
+| Name | Description |
+|------|-------------|
+| Built-in Commands | Core built-in commands (cd, echo, read, test, export, alias) executed without forking. |
+| Shell Scripting | Full scripting language with variables, arrays, conditionals, loops, and functions. |
+| Parameter Expansion | String manipulation, pattern matching, and variable substitution via parameter expansion. |
+| I/O Redirection | Redirect stdin, stdout, stderr to files, devices, and between processes with pipes. |
+| Job Control | Background and foreground process management with fg, bg, jobs, and signals. |
+| Arithmetic Expansion | Integer arithmetic via $(()) and let built-in for numeric computation in scripts. |
+| Process Substitution | Treat command output as a file using process substitution for pipeline flexibility. |
+| Readline Integration | Command-line editing with history, completion, and key bindings via GNU Readline. |
+| Array Support | Indexed and associative arrays for complex data structures in shell scripts. |
+| Brace Expansion | Generate arbitrary strings and file lists via brace expansion patterns. |
 
-**Human URL:** [https://www.gnu.org/software/bash/manual/bash.html](https://www.gnu.org/software/bash/manual/bash.html)
+## Use Cases
 
-#### Properties
+| Name | Description |
+|------|-------------|
+| System Administration | Automate system tasks, user management, log rotation, and maintenance scripts. |
+| CI/CD Pipelines | Build, test, and deploy scripts in GitHub Actions, GitLab CI, Jenkins, and CircleCI. |
+| DevOps Automation | Infrastructure provisioning, configuration management, and deployment orchestration. |
+| Data Processing | Text processing pipelines using grep, awk, sed, and shell pipelines. |
+| API Scripting | HTTP API calls with curl and response parsing for automation and testing. |
+| File Management | Bulk file operations, directory traversal, and file transformation scripts. |
+| Environment Management | Manage environment variables, PATH, and shell configuration via .bashrc and .profile. |
 
-- [Documentation](https://www.gnu.org/software/bash/manual/bash.html)
-- [Reference](https://www.gnu.org/software/bash/manual/html_node/index.html)
-- [Tutorial](https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html)
+## Common Resources
 
-### Bash Scripting API
-Programming interface for creating Bash shell scripts
-
-**Human URL:** [https://www.gnu.org/software/bash/manual/bash.html#Shell-Scripts](https://www.gnu.org/software/bash/manual/bash.html#Shell-Scripts)
-
-#### Properties
-
-- [Documentation](https://www.gnu.org/software/bash/manual/bash.html)
-- [Examples](https://github.com/awesome-lists/awesome-bash)
-- [Best Practices](https://google.github.io/styleguide/shellguide.html)
-
-### Bash Variables and Parameters
-Environment variables, special parameters, and parameter expansion
-
-**Human URL:** [https://www.gnu.org/software/bash/manual/html_node/Shell-Parameters.html](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameters.html)
-
-#### Properties
-
-- [Documentation](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameters.html)
-- [Reference](https://www.gnu.org/software/bash/manual/html_node/Shell-Variables.html)
-
-### Bash Control Structures
-Conditional statements, loops, and flow control mechanisms
-
-**Human URL:** [https://www.gnu.org/software/bash/manual/html_node/Conditional-Constructs.html](https://www.gnu.org/software/bash/manual/html_node/Conditional-Constructs.html)
-
-#### Properties
-
-- [Documentation](https://www.gnu.org/software/bash/manual/html_node/Conditional-Constructs.html)
-- [Reference](https://www.gnu.org/software/bash/manual/html_node/Looping-Constructs.html)
-
-### Bash Functions API
-Define and use shell functions in Bash scripts
-
-**Human URL:** [https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html](https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html)
-
-#### Properties
-
-- [Documentation](https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html)
-- [Examples](https://www.gnu.org/software/bash/manual/html_node/Shell-Function-Definitions.html)
-
-### Bash I/O Redirection API
-Input/output redirection and file descriptor manipulation
-
-**Human URL:** [https://www.gnu.org/software/bash/manual/html_node/Redirections.html](https://www.gnu.org/software/bash/manual/html_node/Redirections.html)
-
-#### Properties
-
-- [Documentation](https://www.gnu.org/software/bash/manual/html_node/Redirections.html)
-- [Reference](https://www.gnu.org/software/bash/manual/html_node/Pipelines.html)
-
-### Bash Process Management
-Job control, process substitution, and command execution
-
-**Human URL:** [https://www.gnu.org/software/bash/manual/html_node/Job-Control.html](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
-
-#### Properties
-
-- [Documentation](https://www.gnu.org/software/bash/manual/html_node/Job-Control.html)
-- [Reference](https://www.gnu.org/software/bash/manual/html_node/Command-Execution-Environment.html)
-
-## Common Properties
-
-- [License](https://www.gnu.org/licenses/gpl-3.0.html)
-- [Source Code](https://git.savannah.gnu.org/cgit/bash.git)
-- [Download](https://ftp.gnu.org/gnu/bash/)
-- [Changelog](https://tiswww.case.edu/php/chet/bash/CHANGES)
+- [GNU Bash](https://www.gnu.org/software/bash/)
+- [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
+- [Source Code Repository](https://git.savannah.gnu.org/cgit/bash.git)
+- [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
+- [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
 
 ## Maintainers
 
-**FN:** Free Software Foundation
+**FN:** Kin Lane
 
-**Email:** bug-bash@gnu.org
+**Email:** kin@apievangelist.com
