@@ -8,7 +8,7 @@ description: >-
   management. Bash scripts are the foundational automation tool for system administration,
   CI/CD pipelines, DevOps tooling, and software build systems.
 type: Index
-x-type: opensource
+kind: opensource
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Automation
