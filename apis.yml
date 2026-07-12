@@ -25,6 +25,8 @@ modified: '2026-04-21'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/bash-domain-security.yml
   - type: Website
     url: https://www.gnu.org/software/bash/
     name: GNU Bash
