@@ -24,6 +24,15 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bash.png
 tags:
   - Automation
   - Bash
+  - Command Line
+  - DevOps
+  - Linux
+  - Scripting
+  - Shell
+  - Unix
+tags_raw:
+  - Automation
+  - Bash
   - Command-Line
   - DevOps
   - Linux
